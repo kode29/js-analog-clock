@@ -31,7 +31,7 @@ const updateTime = () => {
     let date = new Date(),
     secToDeg = (date.getSeconds() / 60) * 360,
     minToDeg = (date.getMinutes() / 60) * 360,
-    hrToDeg = (date.getHours() / 60) * 360;
+    hrToDeg = (date.getHours() / 12) * 360;
     console.log(`Time: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`);
 
     // console.log(secToDeg);
